@@ -110,7 +110,7 @@ form.addEventListener("input", async function(){
         y = rtn[8];
         let product_coefficient = rtn[9];
         if(msg == "Error"){
-            let answer = "Could Not Calculate" 
+            let answer = "" 
         }
         else {
             answer = format(coefficient1, coefficient2, parseInt(charge1), parseInt(charge2), reactant1, reactant2, parseInt(t), parseInt(y), parseInt(product_coefficient))
