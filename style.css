@@ -15,7 +15,7 @@ body{
     margin: auto 4em;
 }
 
-footer{
+.footer{
     color: rgba(255, 255, 255, .8);
     background-color: rgba(0, 0, 0, .85);
     height: 3.5em;
