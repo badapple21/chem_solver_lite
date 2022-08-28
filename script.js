@@ -118,7 +118,7 @@ form.addEventListener("input", async function(){
         document.getElementById("ans").innerHTML = answer;
     }
     else {
-        document.getElementById("ans").innerHTML = "Error - Enter all feilds";
+        document.getElementById("ans").innerHTML = "";
     }
 
 
